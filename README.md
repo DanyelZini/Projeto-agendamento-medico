@@ -47,10 +47,10 @@ classDiagram
         Medico medico
     }
 
-    Paciente --> Prontuario : has
-    Medico --> Especialidade : has
-    Atendimento --> Paciente : has
-    Atendimento --> Medico : has
+    Paciente --> Prontuario
+    Medico --> Especialidade
+    Atendimento --> Paciente
+    Atendimento --> Medico
 ```
 
 ## ⚙️ Etapas para Configuração
@@ -124,11 +124,3 @@ A aplicação possui um tratamento global de exceções que retorna respostas ap
 - **400 Bad Request**: Para erros de validação.
 - **404 Not Found**: Quando um recurso não é encontrado.
 - **500 Internal Server Error**: Para erros inesperados no servidor.
-
-### 🤝 Contribuindo
-
-Sinta-se à vontade para contribuir com este projeto. Faça um fork do repositório, crie um branch para suas alterações e envie um pull request.
-
-### 📜 Licença
-
-Este projeto está licenciado sob os termos da licença MIT.
